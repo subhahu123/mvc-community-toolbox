@@ -1,0 +1,65 @@
+/* https://github.com/theleagueof/league-spartan */
+@font-face {
+    font-family: 'League Spartan';
+    src: url('https://raw.githubusercontent.com/theleagueof/league-spartan/master/_webfonts/leaguespartan-bold.eot');
+    src: url('https://raw.githubusercontent.com/theleagueof/league-spartan/master/_webfonts/leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('https://raw.githubusercontent.com/theleagueof/league-spartan/master/_webfonts/leaguespartan-bold.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/theleagueof/league-spartan/master/_webfonts/leaguespartan-bold.woff') format('woff'),
+         url('https://raw.githubusercontent.com/theleagueof/league-spartan/master/_webfonts/leaguespartan-bold.ttf') format('truetype'),
+         url('https://raw.githubusercontent.com/theleagueof/league-spartan/master/_webfonts/leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+h1, h2, .section h3 {
+  font-family: 'League Spartan';
+  color: #445;
+  padding-top: 20px;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+.row.section  img {
+  max-width: 90%;
+}
+
+.row.section p {
+  margin-bottom: 30px;
+}
+
+@media (min-width:768px) {
+  .row.section  img {
+    margin-left: 10%;
+  }
+}
+
+.header {
+  text-align: center;
+}
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
